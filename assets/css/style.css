@@ -124,6 +124,18 @@ body {
   }
 }
 
+@media (max-width: 575px) {
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .social-links a {
+    margin-bottom: 10px;
+  }
+}
+
 /* PRIVACY POLICY */
 #privacy-policy {
   background-color: #8cc0de;
